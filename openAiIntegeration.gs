@@ -10,7 +10,8 @@ function myFunction() {
 
   // Replace YOUR_API_KEY with your actual OpenAI API key
   var apiKey = "YOUR_API_KEY";
-  var prompt = "Generate a detailed full length article about " + selectedText;
+  // 日本語で出力できるようにJapaneseを追加
+  var prompt = "Generate a detailed full length article Japanese about " + selectedText;
 
   // var model = "text-davinci-002";
 
